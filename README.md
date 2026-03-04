@@ -13,11 +13,13 @@ Teaching project to show some use cases for PCG (Procedural Content Generation) 
 ### PCGForestExample
 **Path:** `PCGExamples/Content/Levels/PCGForestExample.umap`
 
-Basic example of using PCG to generate a forest.
+Basic example of using PCG to generate a forest with various implementations. Covers using the GetLandscapeData node and interior of a spline loop to
+sample the landscape.
 
-**PCG Graphs used:**
-- `PCG_Forest` — Simple graph that samples the terrain and generates a forest from various tree static meshes
-- `PCG_DetailedForest` — Improves on the simple forest and adds details around the base of the tree, with meshes scaled based on distance from tree
-- 'PCG_SplineForest' - Uses the interior of a spline to set the bounds of the forest
+### PCGForestExample
+**Path:** `PCGExamples/Content/Levels/PCGPathsExample.umap`
+
+Examples of using the PCG graph system to generate paths. Examples include the use of the Project node to align points to the landscape below.
+Includes using the shape grammar system for generating a fence with a gate.
 
 ---
