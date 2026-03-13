@@ -29,3 +29,13 @@ Shows a Packed Level asset in the scene and then an PCG graph implementation of 
 [Randomize Anything with PCG](https://www.youtube.com/watch?v=QE65wzDZxfY) video.
 
 ---
+
+## Epic Games Example Project
+
+[Cassini Sample](https://www.fab.com/listings/3f7cd12c-30b3-47d6-90c2-8604ed068ab7)
+[Cassini YouTube Video](https://www.youtube.com/watch?v=j3ke6MmcaeY)
+
+This is some more advanced use cases but interesting to dive into if you're read.
+
+Shows using packed level assets to create a space station hallway with a lot of detail. Also uses hierarchical generation to generate debris.
+Shows an asteroid field with over a million asteroids using PCG point generation on the GPU (pretty technical).
