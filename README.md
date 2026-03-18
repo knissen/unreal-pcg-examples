@@ -28,6 +28,12 @@ for large open worlds, including hierarchical generation techniques.
 Shows a Packed Level asset in the scene and then an PCG graph implementation of randomizing items in that level based on Actor tags on items. Based on the
 [Randomize Anything with PCG](https://www.youtube.com/watch?v=QE65wzDZxfY) video.
 
+### PCG_E_MeshPointsExample
+**Path:** `PCGExamples/Content/Levels/PCG_E_MeshPointsExample.umap`
+
+Shows how to use PCG to generate points on a mesh using a tree mesh and spawning 'moss' around the trunk and adding leaves on the top. Shows using the HeightToDensity
+and NormalToDensity nodes which are very powerful for generating environmental effects.
+
 ---
 
 ## YouTube Channel References
@@ -41,7 +47,7 @@ Shows a Packed Level asset in the scene and then an PCG graph implementation of 
 [Cassini Sample](https://www.fab.com/listings/3f7cd12c-30b3-47d6-90c2-8604ed068ab7)
 [Cassini YouTube Video](https://www.youtube.com/watch?v=j3ke6MmcaeY)
 
-This is some more advanced use cases but interesting to dive into if you're read.
+These are some more advanced use cases but interesting to dive into if you're ready.
 
-Shows using packed level assets to create a space station hallway with a lot of detail. Also uses hierarchical generation to generate debris.
+Shows using packed level assets to create a space station hallway with a lot of details. Also uses hierarchical generation to generate debris.
 Shows an asteroid field with over a million asteroids using PCG point generation on the GPU (pretty technical).
